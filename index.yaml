@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  mywebapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-01-19T20:18:18.006353675Z"
+    description: A Helm chart for Kubernetes
+    digest: 60dc4bac4d99c061e8cf96dee08fd49b30ab11ffaa7ad4337b697f429cd7ba30
+    name: mywebapp
+    type: application
+    urls:
+    - https://github.com/rtk8s/helm-charts/releases/download/mywebapp-0.1.0/mywebapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-01-19T20:18:18.006363333Z"
