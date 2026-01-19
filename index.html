@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rtk8s Helm Charts</title>
+</head>
+<body>
+<style>
+  mark {
+    background-color: #FFB6C1; /* Light pink highlight */
+  }
+</style>
+<h3>Welcome to rtk8s Helm Charts!</h3>
+<pre>
+<b>Add rtk8s helm repository and search available charts as follows:</b>
+<mark>helm repo add rtk8s https://rtk8s.github.io/helm-charts</mark>
+<mark>helm search repo rtk8s</mark>
+</pre>
+<pre>
+<b>Example: Install mywebapp Helm Chart:</b>
+<mark>helm upgrade --install mywebapp rtk8s/mywebapp</mark>
+<mark>kubectl get pods | grep mywebapp</mark>
+</pre>
+</body>
+</html>
